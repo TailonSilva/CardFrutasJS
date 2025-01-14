@@ -1,0 +1,250 @@
+{
+    "frutas": [
+        {
+            "nome": "Maçã",
+            "categoria": "Fruta de pomar",
+            "cor_predominante": "Vermelha",
+            "quantidade": {
+                "valor": 100,
+                "unidade": "g"
+            },
+            "informacoes": {
+                "calorias": {
+                    "valor": 52,
+                    "unidade": "kcal"
+                },
+                "carboidratos": {
+                    "valor": 14,
+                    "unidade": "g"
+                },
+                "proteinas": {
+                    "valor": 0.3,
+                    "unidade": "g"
+                },
+                "gorduras": {
+                    "valor": 0.2,
+                    "unidade": "g"
+                },
+                "fibras": {
+                    "valor": 2.4,
+                    "unidade": "g"
+                }
+            },
+            "plantacao": {
+                "regiao_ideal": "Climas temperados",
+                "tempo_de_colheita": "6-8 meses após o plantio",
+                "tipo_de_solo": "Bem drenado e rico em matéria orgânica"
+            },
+            "origem_brasil": {
+                "estado_origem": "Santa Catarina",
+                "estado_maior_produtor": "Santa Catarina"
+            },
+            "consumo": "Em saladas, sucos, purês ou como sobremesa"
+        },
+        {
+            "nome": "Caju",
+            "categoria": "Fruta tropical",
+            "cor_predominante": "Amarela",
+            "quantidade": {
+                "valor": 100,
+                "unidade": "g"
+            },
+            "informacoes": {
+                "calorias": {
+                    "valor": 43,
+                    "unidade": "kcal"
+                },
+                "carboidratos": {
+                    "valor": 10,
+                    "unidade": "g"
+                },
+                "proteinas": {
+                    "valor": 1.5,
+                    "unidade": "g"
+                },
+                "gorduras": {
+                    "valor": 0.1,
+                    "unidade": "g"
+                },
+                "fibras": {
+                    "valor": 1.7,
+                    "unidade": "g"
+                }
+            },
+            "plantacao": {
+                "regiao_ideal": "Climas quentes e secos",
+                "tempo_de_colheita": "4-5 meses após a floração",
+                "tipo_de_solo": "Arenoso ou argiloso"
+            },
+            "origem_brasil": {
+                "estado_origem": "Ceará",
+                "estado_maior_produtor": "Ceará"
+            },
+            "consumo": "Em sucos, doces ou castanhas torradas"
+        },
+        {
+            "nome": "Açaí",
+            "categoria": "Fruta amazônica",
+            "cor_predominante": "Roxa",
+            "quantidade": {
+                "valor": 100,
+                "unidade": "g"
+            },
+            "informacoes": {
+                "calorias": {
+                    "valor": 60,
+                    "unidade": "kcal"
+                },
+                "carboidratos": {
+                    "valor": 6,
+                    "unidade": "g"
+                },
+                "proteinas": {
+                    "valor": 2,
+                    "unidade": "g"
+                },
+                "gorduras": {
+                    "valor": 4.9,
+                    "unidade": "g"
+                },
+                "fibras": {
+                    "valor": 2.9,
+                    "unidade": "g"
+                }
+            },
+            "plantacao": {
+                "regiao_ideal": "Climas úmidos e quentes",
+                "tempo_de_colheita": "12-18 meses após o plantio",
+                "tipo_de_solo": "Arenoso e rico em matéria orgânica"
+            },
+            "origem_brasil": {
+                "estado_origem": "Pará",
+                "estado_maior_produtor": "Pará"
+            },
+            "consumo": "Em polpas, sorvetes ou misturado com tapioca e granola"
+        },
+        {
+            "nome": "Uva",
+            "categoria": "Fruta de videira",
+            "cor_predominante": "Roxa ou Verde",
+            "quantidade": {
+                "valor": 100,
+                "unidade": "g"
+            },
+            "informacoes": {
+                "calorias": {
+                    "valor": 69,
+                    "unidade": "kcal"
+                },
+                "carboidratos": {
+                    "valor": 18,
+                    "unidade": "g"
+                },
+                "proteinas": {
+                    "valor": 0.7,
+                    "unidade": "g"
+                },
+                "gorduras": {
+                    "valor": 0.2,
+                    "unidade": "g"
+                },
+                "fibras": {
+                    "valor": 0.9,
+                    "unidade": "g"
+                }
+            },
+            "plantacao": {
+                "regiao_ideal": "Climas subtropicais",
+                "tempo_de_colheita": "5-7 meses após a floração",
+                "tipo_de_solo": "Bem drenado e rico em nutrientes"
+            },
+            "origem_brasil": {
+                "estado_origem": "Rio Grande do Sul",
+                "estado_maior_produtor": "Rio Grande do Sul"
+            },
+            "consumo": "Em vinhos, sucos ou passas"
+        },
+        {
+            "nome": "Graviola",
+            "categoria": "Fruta tropical",
+            "cor_predominante": "Verde",
+            "quantidade": {
+                "valor": 100,
+                "unidade": "g"
+            },
+            "informacoes": {
+                "calorias": {
+                    "valor": 66,
+                    "unidade": "kcal"
+                },
+                "carboidratos": {
+                    "valor": 16.8,
+                    "unidade": "g"
+                },
+                "proteinas": {
+                    "valor": 1,
+                    "unidade": "g"
+                },
+                "gorduras": {
+                    "valor": 0.3,
+                    "unidade": "g"
+                },
+                "fibras": {
+                    "valor": 3.3,
+                    "unidade": "g"
+                }
+            },
+            "plantacao": {
+                "regiao_ideal": "Climas quentes e úmidos",
+                "tempo_de_colheita": "3-5 anos após o plantio",
+                "tipo_de_solo": "Arenoso e bem drenado"
+            },
+            "origem_brasil": {
+                "estado_origem": "Maranhão",
+                "estado_maior_produtor": "Bahia"
+            },
+            "consumo": "Em sucos, sorvetes ou doces"
+        },
+        {
+            "nome": "Jabuticaba",
+            "categoria": "Fruta nativa",
+            "cor_predominante": "Preta",
+            "quantidade": {
+                "valor": 100,
+                "unidade": "g"
+            },
+            "informacoes": {
+                "calorias": {
+                    "valor": 58,
+                    "unidade": "kcal"
+                },
+                "carboidratos": {
+                    "valor": 15.3,
+                    "unidade": "g"
+                },
+                "proteinas": {
+                    "valor": 0.8,
+                    "unidade": "g"
+                },
+                "gorduras": {
+                    "valor": 0.1,
+                    "unidade": "g"
+                },
+                "fibras": {
+                    "valor": 2.3,
+                    "unidade": "g"
+                }
+            },
+            "plantacao": {
+                "regiao_ideal": "Climas subtropicais",
+                "tempo_de_colheita": "6-8 anos após o plantio",
+                "tipo_de_solo": "Argiloso e bem drenado"
+            },
+            "origem_brasil": {
+                "estado_origem": "Minas Gerais",
+                "estado_maior_produtor": "Minas Gerais"
+            },
+            "consumo": "Em sucos, licores ou geleias"
+        }
+    ]
+}
