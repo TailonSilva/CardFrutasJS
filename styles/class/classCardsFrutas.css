@@ -1,0 +1,67 @@
+/*-- Container Geral que vai ter todos os cards dentro --*/
+#cards {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+/*-- Container que vai guadar o card - lado direito .info com as informações e lado esquerdo .card com as fotos --*/
+.cardContainer {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  background-color: white;
+  gap:20px;
+}
+
+/*--  --*/
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-left: -50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 300px;
+  background-color: aqua;
+}
+
+.card div {}
+
+/*--  --*/
+.card div>img {}
+
+/*--  --*/
+.card div .containerMiniaturas {}
+
+/*--  --*/
+.card .containerMiniaturas img {}
+
+/*-- Container que vai guardar as informações dos produtos --*/
+.info {
+  width: 250px;
+  padding-top: 30px;
+}
+
+/*--  --*/
+.info h1 {}
+
+/*--  --*/
+.info h3 {}
+
+/*--  --*/
+.info .divpreco span {}
+
+/*--  --*/
+.info .divpreco h2 {}
+
+/*--  --*/
+.info h6 {}
+
+/*--  --*/
+.info ul {}
+
+/*--  --*/
+.info ul li {}
+
+/*--  --*/
+.btnCard {}
