@@ -8,7 +8,7 @@ const cardMaca = new ClassCardsFrutas(
   'Fruta de Pomar',
   '3,75',
   'Comprar Este Produto',
-    //corCard, 
+  /*'#9ae108'*/ 'red', 
     //corButton, 
     //corConainer,
     //corTxtBotao,

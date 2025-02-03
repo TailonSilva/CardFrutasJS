@@ -5,7 +5,7 @@ export default class CardFrutas {
     catProduto,
     preco,
     txtBotao, 
-    //corCard, 
+    corCard, 
     //corButton, 
     //corConainer,
     //corTxtBotao,
@@ -27,7 +27,7 @@ export default class CardFrutas {
     this.catProduto = catProduto;
     this.preco = preco;
     this.txtBotao = txtBotao;
-    //this.corCard = corCard;
+    this.corCard = corCard;
     //this.corButton = corButton;
     //this.corConainer = corConainer;
     //this.corTxtBotao = corTxtBotao;
@@ -48,17 +48,23 @@ export default class CardFrutas {
   criaCard() {
     const divCard = document.createElement('div');
     divCard.classList.add('card');
-
+    
     const div = document.createElement('div');
+    div.style.background = 'radial-gradient(circle, #fff 1%,'+this.corCard+' 99%)';
+    console.log(this.corCard)
 
     const icoCompartilhar = document.createElement('img');
     icoCompartilhar.src = './assets/img/icon/ico_compartilhar.png';
+    icoCompartilhar.classList.add('icoCompartilhar');
+
 
     const icoamei = document.createElement('img');
     icoamei.src = './assets/img/icon/ico_amei.png';
+    icoamei.classList.add('icoamei');
 
     const imgPrincipal = document.createElement('img');
     imgPrincipal.src = this.urlImgPrincipal;
+    imgPrincipal.classList.add('imgPrincipal');
 
     const containerMiniaturas = document.createElement('div');
 

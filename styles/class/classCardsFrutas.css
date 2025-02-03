@@ -7,11 +7,12 @@
 
 /*-- Container que vai guadar o card - lado direito .info com as informações e lado esquerdo .card com as fotos --*/
 .cardContainer {
-  width: 500px;
+  width: 600px;
   height: 500px;
   display: flex;
   background-color: white;
-  gap:20px;
+  gap:50px;
+  border-radius: 8px;
 }
 
 /*--  --*/
@@ -21,20 +22,51 @@
   margin-left: -50px;
   margin-top: 30px;
   margin-bottom: 30px;
-  width: 300px;
-  background-color: aqua;
+  width: 350px;
+  height: 440px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 50px #000;
 }
 
-.card div {}
+.card>div {
+  border-radius: 8px;
+  height: 440px;
+  position: relative;
+
+}
+
+.icoCompartilhar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+}
+
+.icoamei {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+}
+
+.imgPrincipal {
+  margin-left: -50px;
+}
 
 /*--  --*/
-.card div>img {}
+.card div .containerMiniaturas {
+  background-color: #fff;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+}
 
 /*--  --*/
-.card div .containerMiniaturas {}
-
-/*--  --*/
-.card .containerMiniaturas img {}
+.card .containerMiniaturas img {
+  width: 86px;
+  padding: 10px;
+}
 
 /*-- Container que vai guardar as informações dos produtos --*/
 .info {
