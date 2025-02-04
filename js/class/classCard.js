@@ -1,4 +1,4 @@
-export default class CardFrutas {
+export default class Card {
   constructor(
     containerPai,
     fruta,
@@ -6,9 +6,9 @@ export default class CardFrutas {
     preco,
     txtBotao, 
     corCard, 
-    //corButton, 
-    //corConainer,
-    //corTxtBotao,
+    corButton, 
+    corConainer,
+    corTxtBotao,
     corContainerMiniatura,
     urlImgPrincipal,
     miniImg1,
@@ -28,9 +28,9 @@ export default class CardFrutas {
     this.preco = preco;
     this.txtBotao = txtBotao;
     this.corCard = corCard;
-    //this.corButton = corButton;
-    //this.corConainer = corConainer;
-    //this.corTxtBotao = corTxtBotao;
+    this.corButton = corButton;
+    this.corConainer = corConainer;
+    this.corTxtBotao = corTxtBotao;
     this.corContainerMiniatura = corContainerMiniatura;
     this.urlImgPrincipal = urlImgPrincipal;
     this.miniImg1 = miniImg1;
@@ -137,6 +137,8 @@ export default class CardFrutas {
     const botao = document.createElement('button')
     botao.classList.add('btnCard')
     botao.innerText = this.txtBotao;
+    botao.style.background = this.corButton;
+    botao.style.color = this.corTxtBotao;
 
     listaInfos.append(listaItem1);
     listaInfos.append(listaItem2);
@@ -162,6 +164,7 @@ export default class CardFrutas {
     
     const divContainer = document.createElement('div');
     divContainer.classList.add('cardContainer');
+    divContainer.style.background = this.corConainer;
 
     divContainer.append(divCard);
     divContainer.append(divInfo);
