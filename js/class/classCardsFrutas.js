@@ -9,7 +9,7 @@ export default class CardFrutas {
     //corButton, 
     //corConainer,
     //corTxtBotao,
-    //corContainerMiniatura,
+    corContainerMiniatura,
     urlImgPrincipal,
     miniImg1,
     miniImg2,
@@ -31,7 +31,7 @@ export default class CardFrutas {
     //this.corButton = corButton;
     //this.corConainer = corConainer;
     //this.corTxtBotao = corTxtBotao;
-    //this.corContainerMiniatura = corContainerMiniatura;
+    this.corContainerMiniatura = corContainerMiniatura;
     this.urlImgPrincipal = urlImgPrincipal;
     this.miniImg1 = miniImg1;
     this.miniImg2 = miniImg2;
@@ -67,8 +67,8 @@ export default class CardFrutas {
     imgPrincipal.classList.add('imgPrincipal');
 
     const containerMiniaturas = document.createElement('div');
-
     containerMiniaturas.classList.add('containerMiniaturas');
+    containerMiniaturas.style.background = this.corContainerMiniatura;
 
     const miniImg1 = document.createElement('img');
     miniImg1.src = this.miniImg1;
@@ -156,7 +156,7 @@ export default class CardFrutas {
     return(divInfo);
   }
 
-  criarElemento() {
+  criarCard() {
     const divCard = this.criaCard()
     const divInfo = this.criaInfo()
     
